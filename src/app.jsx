@@ -1514,20 +1514,24 @@ function About() {
           <p className={cx('eyebrow accent')}>PENDIDIKAN</p>
 
           <div className={cx('education-row')}>
-            <strong>PP Hubbul Khoir</strong>
-            <span>Animasi</span>
-            <p>Animation, visual effects, CGI & digital media.</p>
+  <strong>PP Hubbul Khoir</strong>
+  <span>Currently Studying</span>
+  <p>
+    Terus mengembangkan pengetahuan dan keterampilan melalui
+    pembelajaran mandiri di bidang programming, web development,
+    UI/UX design, desain digital, serta 3D modeling menggunakan Blender.
+  </p>
+</div>
+
+          <div className={cx('education-row')}>
+            <strong>...</strong>
+            <span>...</span>
+            <p>...</p>
           </div>
 
           <div className={cx('education-row')}>
-            <strong>Dalang Digital Studio</strong>
-            <span>2023</span>
-            <p>6-month VFX & post-production internship.</p>
-          </div>
-
-          <div className={cx('education-row')}>
-            <strong>Courses & Workshops</strong>
-            <p>Videolabs · RifqiArt · Mindplace</p>
+            <strong>...</strong>
+            <p>...</p>
           </div>
 
           <p className={cx('eyebrow accent skills-heading')}>
@@ -2351,20 +2355,13 @@ function App() {
           </span>
 
           <div>
-            <a
-              href="https://www.youtube.com/@DuingZStudio"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="YouTube DuingZ Studio"
-            >
-              <Youtube size={17} />
-            </a>
+          
 
             <a
-              href="https://www.instagram.com/dododididaw/"
+              href="https://www.instagram.com/Punumbra_RAK/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Instagram dododididaw"
+              aria-label="Instagram Punumbra_RAK"
             >
               <Instagram size={17} />
             </a>
