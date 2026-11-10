@@ -1,0 +1,19 @@
+{
+  "name": "renando-cinematic-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./Asset/dist/app.css --minify && node scripts/build.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
